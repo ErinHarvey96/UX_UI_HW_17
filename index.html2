@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title></title>
+</head>
+<body>
+  <nav id="navBar">
+    <h1>Erin Harvey // UX Researcher</h1>
+    <div id="navigation">
+      <p>Work</p>
+      <p>About</p>
+    </div>
+  </nav>
+
+
+
+  #navBar {
+    display: flex;
+    felx-direction: row;
+    margin: 0px 5%
+  }
+
+  #navBar h1 {
+    width: 25%;
+    font-wei 500;
+  }
+
+  #navgation {
+    display: flex;
+    width: 50%;
+    align-items: right;
+    justify=content: space-evenly;
+  }
+
+  #navigation p {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+
+
+
+
+  <!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title></title>
+        </head>
+        <body>
+            <header class="navBar">
+                <div class="topnav">
+                    <h1>
+                        <li>Erin Harvey</li>
+                        <li>UX Researcher</li>
+                    </h1>
+                    <div class="topnav-right">
+                        <ul>
+                            <li>Work</li>
+                            <li>About</li>
+                        </ul>
+                    </div>
+                </div>
+            </header>  
+
+
+
+.topnav {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav-right {
+    float: right;
+}

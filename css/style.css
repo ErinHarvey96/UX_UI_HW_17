@@ -1,0 +1,171 @@
+h2 {
+    font-family: 'Merriweather', serif;
+    color: #BE8069;
+
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+
+ul {
+    color: white;
+    font-weight: 100;
+    list-style-type: none;
+}
+
+p {
+    color: white;
+    font-weight: 100;
+}
+
+body {
+   
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    background-color: #1B2B24 ;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%
+  }
+
+  #navBar h1 {
+    font-weight: 500;
+  }
+
+  #navigation {
+    display: flex;
+    width: 50%;
+    padding: 2%;
+    align-items: right;
+    justify-content: right;
+  }
+
+  #navigation ul {
+    cursor: pointer;
+    list-style-type: none;
+  }
+
+
+ 
+ 
+  #introduction {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "headshot Bio";
+  }
+  
+  #headshot {
+    grid-area: headshot;
+    height: 400px;
+    width: 100%;
+    justify-content: space-around;
+    background-image: url("../images/Erin_Headshot.JPG");
+  }
+
+  #Bio {
+    grid-area: Bio;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+
+  .heroGridArea {
+    background-position: center;
+    background-repeat: never;
+    background-size: cover;
+    display: flex;
+    position: relative;
+  }
+
+
+.h2 {
+    text-align: center;
+    width: 300px;
+    margin: 50px auto;
+}
+
+#Skills {
+    margin: 0px 5%;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "UserResearch UsabilityEvaluation DataVisualization"
+    ;
+  }
+
+  #UserResearch {
+    grid-area: UserResearch;
+  }
+
+  #UsabilityEvaluation {
+    grid-area: UsabilityEvaluation;
+  }
+
+  #DataVisualization {
+    grid-area: DataVisualization;
+  }
+
+
+  #Tools {
+    margin: 0px 5%;
+    display: grid;
+    background-color: #A54723;
+    grid-template-rows: 20% 20% 20% 20% 20% 20%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header"
+    "Line1 Line2 Line3 Line4 Line5";
+  }
+
+  #h2 {
+    grid-area: header;
+
+  }
+
+  #Tools1 {
+    grid-area: Line1;
+
+  }
+
+  #Tools2 {
+    grid-area: Line2;
+  }
+
+  #Tools3 {
+    grid-area: Line3;
+  }
+
+  #Tools4 {
+    grid-area: Line4;
+  }
+
+  #Tools5 {
+    grid-area: Line5;
+  }
+
+
+  .ContactMe {
+    text-align: center;
+    width: 300px;
+    margin: 50px auto;
+  }
+
+  .ContactList {
+    text-align: center;
+    width: 300px;
+    margin: 50px auto;
+
+  }
+
